@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 575px){
+
+    nav{
+        background-color: rgba(0, 0, 0, 0.896);
+    }
+
+    nav .navbar-nav{
+        overflow-y: auto;
+        height: calc(100vh - 77px);
+    }
+
+    nav .container  ul li{
+        width: fit-content;
+    }
+
+
+    nav .container  ul li .main-link::after,
+    .dropdown-toggle::after{
+        left: 0;
+    }
+
+    nav .container ul li .main-link:hover::after,
+    nav .container ul li .main-link.active::after,
+    .dropdown-toggle:hover::after {
+        width: 100%;
+    }
+
+    nav .container  ul li .main-link:hover,
+    .dropdown-toggle:hover{
+        color: var(--main-color);
+    }
+    
+    .dropdown-item::before{
+        transform: rotate(-90deg) ;
+        margin-right: 10px !important;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width : 767px){
+
+    nav{
+        background-color: rgba(0, 0, 0, 0.896);
+    }
+
+    nav .navbar-nav{
+        min-height: 100vh;
+    }
+
+    nav .container  ul li{
+        width: fit-content;
+    }
+
+
+    nav .container  ul li .main-link::after,
+    .dropdown-toggle::after{
+        left: 0;
+    }
+
+    nav .container ul li .main-link:hover::after,
+    nav .container ul li .main-link.active::after,
+    .dropdown-toggle:hover::after {
+        width: 100%;
+    }
+
+    nav .container  ul li .main-link:hover,
+    .dropdown-toggle:hover{
+        color: var(--main-color);
+    }
+    
+    .dropdown-item::before{
+        transform: rotate(-90deg) ;
+        margin-right: 10px !important;
+    }
+}
+@media screen and (min-width: 767px) and (max-width : 991px){
+
+    nav{
+        background-color: rgba(0, 0, 0, 0.896);
+    }
+
+    nav .navbar-nav{
+        min-height: 100vh;
+    }
+
+    nav .container  ul li{
+        width: fit-content;
+    }
+
+
+    nav .container  ul li .main-link::after,
+    .dropdown-toggle::after{
+        left: 0;
+    }
+
+    nav .container ul li .main-link:hover::after,
+    nav .container ul li .main-link.active::after,
+    .dropdown-toggle:hover::after {
+        width: 100%;
+    }
+
+    nav .container  ul li .main-link:hover,
+    .dropdown-toggle:hover{
+        color: var(--main-color);
+    }
+    
+    .dropdown-item::before{
+        transform: rotate(-90deg) ;
+        margin-right: 10px !important;
+    }
+}
